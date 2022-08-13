@@ -1,0 +1,144 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    
+}
+
+.midtop {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.midtop-text {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0px 0px 0px 40px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    height: 40px;
+    width: 80px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.jelly {
+    width: 600px;
+    height: 300px;
+    padding: 40px;
+    border: 10px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+.under-text {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-flow: row;
+    gap: 140px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-flow: row;
+    border-radius: 40px;
+    border-color: #1F2937;
+}
+
+.info {
+    max-width: 200px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rebeccapurple;
+}
+
+.lower-body {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 120px;
+    flex-direction: column;
+}
+
+.inspire {
+    display: flex;
+    font-size: 36px;
+    text-align: justify;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin: 40px;
+    color: #1F2937;
+}
+
+.inspire {
+    display: flex;
+    justify-content: end;
+
+}
+
+.footer {
+    display: flex;
+    background-color: #3882F6;
+    margin: 80px 120px;
+    border-radius: 10px;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 700px;
+}
+
+.footer-text {
+    justify-content: center;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 60px;
+}
+
+.sign-up2 {
+    display: flex;
+    margin: 40px;
+    justify-content: center;
+    text-align: center;
+    padding: 4px;
+    color: white;
+    background-color: #3882F6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 2px;
+}
